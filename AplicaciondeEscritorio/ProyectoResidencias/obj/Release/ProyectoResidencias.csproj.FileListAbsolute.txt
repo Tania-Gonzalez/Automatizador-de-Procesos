@@ -1,0 +1,427 @@
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.config
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csprojAssemblyReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.ResolveComReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BajaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Bienvenida.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasDisponiblesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ConsultasEstablecidas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesDisponibles.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CursoInduccionUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FoliosSolicitadosUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProgramarCurso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistrarAsistencia.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroEstadoDocumento.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CalculadoraPeriodos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitarFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorCredenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorEtiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AsistenciaRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Baja.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaAlumno.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditRenta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.DiasFestivos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AgregarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarEntrega.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.ExportarBase.ExportarBase.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioEliminar.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Credenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Etiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Inicio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoDias.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Principal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesEntregados.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Properties.Resources.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.GenerateResource.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.CopyComplete
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.config
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.dll
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.xml
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.ResolveComReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BajaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Bienvenida.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasDisponiblesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ConsultasEstablecidas.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesDisponibles.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CursoInduccionUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FoliosSolicitadosUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProgramarCurso.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistrarAsistencia.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroEstadoDocumento.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CalculadoraPeriodos.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitarFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorCredenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorEtiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AsistenciaRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Baja.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaAlumno.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditRenta.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.DiasFestivos.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AgregarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarEntrega.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.ExportarBase.ExportarBase.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioEliminar.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Credenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Etiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Inicio.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoDias.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Principal.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesEntregados.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Properties.Resources.resources
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.GenerateResource.cache
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.CopyComplete
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csprojAssemblyReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.Curso.Programar_curso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.config
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csprojAssemblyReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.ResolveComReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BajaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Bienvenida.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasDisponiblesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ConsultasEstablecidas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesDisponibles.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CursoInduccionUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FoliosSolicitadosUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProgramarCurso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistrarAsistencia.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroEstadoDocumento.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CalculadoraPeriodos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitarFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorCredenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorEtiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AsistenciaRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Baja.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaAlumno.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditRenta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EditTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.Curso.Programar_curso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.DiasFestivos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.AgregarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarEntrega.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.ExportarBase.ExportarBase.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioEliminar.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Credenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Etiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.GenerarExcel.ExportarExcelGraficas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.GenerarReporte.GenerarReporteBD.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Inicio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoDias.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Principal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesEntregados.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.Properties.Resources.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.GenerateResource.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.CopyComplete
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\Aplicación\Proyecto Final\Proyecto - Mod\Proyecto (Respaldo)\ProyectoResidencias\obj\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.config
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\ProyectoResidencias.pdb
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\EntityFramework.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\EntityFramework.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.csprojAssemblyReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.ResolveComReference.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.BajaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Bienvenida.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ControlesUsuario.BuscarAlumno.BusquedaTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasDisponiblesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CartasSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ConsultasEstablecidas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesDisponibles.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CredencialesSolicitadasUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CursoInduccionUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.FoliosSolicitadosUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesUC.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ProgramarCurso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistrarAsistencia.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroEstadoDocumento.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CalculadoraPeriodos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitarFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.UCCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorCredenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.UCGeneradorEtiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroAsesorTecnico.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoRegistroTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroFolio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.RegistroProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.AsistenciaRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Baja.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.BusquedaAlumno.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosEscolares.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDatosPersonales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDireccion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditDocumentos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditPrograma.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditRenta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EditTutor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.CartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.Curso.Programar_curso.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.DiasFestivos.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.AgregarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarEntrega.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EliminarReporte.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCartaTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.EstadoCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.ExportarBase.ExportarBase.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioEliminar.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.FolioRegistro.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Credenciales.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Etiquetas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.GenerarExcel.ExportarExcelGraficas.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Forms.GenerarReporte.GenerarReporteBD.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Inicio.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.InsertPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.NuevoDias.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarArea.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarAsesor.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarCarrera.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEncargado.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarEscuela.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarJefe.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ModificarPuerta.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Principal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ProcesoPrincipal.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.ReportesEntregados.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioAceptacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioCredencial.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.SolicitudFolioTerminacion.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.Properties.Resources.resources
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.GenerateResource.cache
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.exe.manifest
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.application
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.csproj.CopyComplete
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.exe
+C:\Users\DELL N4050\Desktop\Proyecto Residencias\PROYECTO DE RESIDENCIAS\ProyectoResidencias\obj\Release\ProyectoResidencias.pdb

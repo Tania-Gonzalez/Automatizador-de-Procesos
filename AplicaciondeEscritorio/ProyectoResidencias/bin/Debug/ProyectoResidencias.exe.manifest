@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProyectoResidencias.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProyectoResidencias" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProyectoResidencias.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoResidencias.exe" size="14492160">
+      <assemblyIdentity name="ProyectoResidencias" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZMzLWdAo0xyKlOPpC02jGgRpB9Vjex5qOOUEqsyLVbo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\images\arrow-down.png" size="1058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GzHg7HSMsUKyySJ05YhOJRmKtpOV+oMWkHXwUzTyfLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\styles\combox.css" size="1607">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tUpfsbZ4Ttu/+AAAvbio93BGrgwrI6VVEFnCHLYw54M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\accordion.css" size="798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d0Uxx87nP9QLmhJvCUIwSgYWgm7uH8cVoVeorks3src=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\all.css" size="280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i2+9VHz5yUp3xMbZI7/Hi1UXPILGWFqFBfS/lJvcZeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\autocomplete.css" size="321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fAA1WhlsWxSGEJKQZNi5tmgL+3x7zNVx6usqRECe4zw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\base.css" size="729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PjQ9hxBcmmxHNkMSV485Jm1adReb+D1P9GIS9qr+cxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\button.css" size="2540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hSMc9kkS1wym3V7bUCfzs50K4e+iHuiCmcICdOoS5X4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\core.css" size="1491">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>farGA7WOaTF2KcNL+CkDtgsUjcalT5FR1l/yVbiajro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\datepicker.css" size="3636">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e/Jidzvc1bnexy2joTRrGLHi3GAUPrjnbAiEyIO50z4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\dialog.css" size="1322">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D1bnM8h5UNF4xL25aEP+npym5hIqDxmRGzXIDewJ0w4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\draggable.css" size="258">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AGsQ+YUSvY1ZfNJxuAyjN1c462P6f8ip6ovnVx79+pI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" size="180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>moSSpYC/hdPpiuiGH71FVn5aH4Pur8+VdNoDmdX2Aqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" size="178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Oat8zZ9Ogledp4qSQSZd8ojY62XbvXz0iu0tASmIffU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" size="120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aRWX6KQKiR6pTTWJl27Pwz5hRcSUIkQ7AKwrWgAilkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" size="105">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8ObNkbg31cVkTQJuX/7M2QeVMxfNXA9omQFzOv2iYLI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" size="111">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wQj1y/LdnsB6JlMGld3ZXhZkWXzmwFauRMFizC4ozsQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" size="110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3fXdTg7ysYXouwr3tukOvnSoQ4TLRwBljnbnVMi/5VA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" size="119">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9vHBvt8aDzfP74HRL18BKGnR7nyYR3WlaYJ6F4TTT1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" size="101">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VCcGVt8HnE2lGCYpoID8YztvhLh5hesBbSWlYOLDjUo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-icons_222222_256x240.png" size="4369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V62w1l9OkdrP7pddlXRCK+50hsihgtYBM3KMZy8s27w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-icons_2e83ff_256x240.png" size="4369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IPjGZnr8SKpDPunrbYoFhL29a0pKkJH/Hms62zHmO9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-icons_454545_256x240.png" size="4369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B0YOhDw+WaqtuzQjHmmehWopgHU8eke2ZEfaXZ+T+38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-icons_888888_256x240.png" size="4369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6i4pYl3jRjRl6TsAKwZfWDPgW5f3oFKxwUHnVNYuGos=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" size="4369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HjLG2/XT/TQvJ6eKqIFVDWQSqiB/SEaHJKahVAK2BBs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\menu.css" size="1124">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oqsrIk44mof91OWvexUlLhaQgz7mm4zxEYgjiW+NdSA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\progressbar.css" size="2951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YhlOFnpLgj5744ie490lvGuqQu6bvFAtKIvyJsTtMCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\resizable.css" size="1203">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2YsFjhv4qTM4q76oGCkyGp7KEtAw+s3jiAYhzeU3UY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\selectable.css" size="342">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BcIeaD3PjRbEeFZE56jXM/Vw3QunxobQi3/i4RrS4Cs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\selectmenu.css" size="1135">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uHJdwA6MCunKFEdLm1e7M8rsz4C7tFK9yajGonJpGMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\slider.css" size="1364">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oBpXHPDbt2fR72qycpMgS3ItOv58UIDkoqpYA4jiThw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\sortable.css" size="256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xNyQtp47Yepalhx/y2lZxDR7pvHVXtgiEJ558hu5NoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\spinner.css" size="1184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zN61l2CDrHuMh6AMqMoa8NxhsSi9o2+NsMzu+wk0H6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\tabs.css" size="1222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t2SRMTMFH1LBOBA8zqPTp9GncAjmwGlzbLGOV2T1Q5k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\theme.css" size="17732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WJpkQ5lqK/NxPQy+BLmfXu+G8kGkqEB7obUZ8tVN5Wg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\themes\base\tooltip.css" size="422">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mf91pX8xKqomvu8t8Btz6aLiOm7bJffi85Y06mQUNQA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EntityModel.Context.tt" size="22935">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Wi2AYH5vcOnupRhJgnF93AufWksCf+YtL1V3Tr/xtF0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EntityModel.tt" size="25280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lVORLrWZZ2zaQcs8CsA9k6l/rOLraXyZgdVf1DIbB3c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Forms\GeneradorCredenciales\Credencial.png" size="1029815">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qYHkRP6hEIz2mColvrHTR4Pm92+53didDqL3FBR0VNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\barra.jpg" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7u7gH5GLOlryeZMRnH3ZpgU2Kgp+RXRW6tlywFqCFBc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\BarraBajas.png" size="44182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4NnGvhnYPiyR9xmKm3WeHTdgVBaK2vGKpTrhgOFaGRI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\BarraEstadosDocumentos.jpeg" size="17243">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eAoKzENuYIE4kmkm2lAmpsbhkDpWd+EZd0SnSEAbfRg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\BarraRegistroFolio.jpeg" size="15176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ak1qQ/f7x/ex/CPAoD8aJvPf+DPp0ue7/nO8BLAG/CE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\IconoCerrarVentana.png" size="428">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l94BM60CLg9QxCHoM9DAXZWQoliIJINQtAlxwbHkVxs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\IconoMinimizarVentana.png" size="332">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lqEJx+AEKK4pQyhuM/c51rH4XaKgrOcz8kjc6deqO+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Imagenes\IconoMinimizarVentanaLlena.png" size="272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ieldPVWONMs1NV+7OXaL8zn6kR96B4gIcPxK5Dz7RmM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ProyectoResidencias.exe.config" size="1486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rQUY6AwbCRmGRtsg8tcrTkeb9zcD860wkkbqSmrTEwU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\combox.js" size="4004">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BkFz+7KiAZTNu3FARjNI8Ak45ZCvWHMiSyIYArbzeG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-1.6.4.js" size="238159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VJZPi1gK15WpYvsnBmcV0yga4a0Toov4rt1diFnrrjc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-1.6.4.min.js" size="91669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-1.6.4-vsdoc.js" size="214129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ngpkHa1wVtrLP4BNw53VX7SlLUZhzu6NLytExZ9xxeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-ui.min-1.11.1.js" size="238314">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4JY5MVcEmAVSuS6q4h9mrwCm6KNx91f3awsSQgwu0qc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-ui-1.11.1.js" size="464435">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/2tw2EWTMuKYJ22GFr6X5vPF1kkl5mb75npmfM4JUPU=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

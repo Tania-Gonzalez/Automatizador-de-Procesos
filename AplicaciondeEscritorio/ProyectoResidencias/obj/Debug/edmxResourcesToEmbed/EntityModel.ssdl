@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Base_Servicio_PracticasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ubicacion" Type="varchar" MaxLength="50" />
+    <Property Name="ID_Departamento" Type="int" />
+    <Property Name="ID_Puerta" Type="int" />
+    <Property Name="ID_Asesor" Type="int" />
+    <Property Name="ID_Jefe_Area" Type="int" />
+  </EntityType>
+  <EntityType Name="Asesor_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Asesor" />
+    </Key>
+    <Property Name="ID_Asesor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1_Asesor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2_Asesor" Type="varchar" MaxLength="50" />
+    <Property Name="Apellido_Paterno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido_Materno" Type="varchar" MaxLength="50" />
+    <Property Name="Cargo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ficha" Type="varchar" MaxLength="20" />
+    <Property Name="Extension" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Avance">
+    <Key>
+      <PropertyRef Name="ID_Avance" />
+    </Key>
+    <Property Name="ID_Avance" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nota" Type="varchar" MaxLength="1000" />
+    <Property Name="Avance_General" Type="int" Nullable="false" />
+    <Property Name="Peticion_folio_aceptacion" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Peticion_Folio_Aceptacion" Type="date" />
+    <Property Name="Curso_De_Induccion" Type="tinyint" Nullable="false" />
+    <Property Name="Fecha_Curso_Induccion" Type="date" />
+    <Property Name="Peticion_Credencial" Type="tinyint" Nullable="false" />
+    <Property Name="Fecha_Peticion_Credencial" Type="date" />
+    <Property Name="Fecha_Llegada_Credencial" Type="date" />
+    <Property Name="Credencial" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Credencial" Type="date" />
+    <Property Name="ID_Credencial" Type="int" />
+    <Property Name="Peticion_Carta_Aceptacion" Type="tinyint" Nullable="false" />
+    <Property Name="Fecha_Peticion_Carta_Aceptacion" Type="date" />
+    <Property Name="Fecha_Llegada_Carta_Aceptacion" Type="date" />
+    <Property Name="Carta_Aceptacion" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Carta_Aceptacion" Type="date" />
+    <Property Name="ID_Aceptacion" Type="int" />
+    <Property Name="Carta_Terminacion_Area" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Carta_Terminacion_Area" Type="date" />
+    <Property Name="Peticion_Folio_Carta_Terminacion" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Peticion_Folio_Carta_Terminacion" Type="date" />
+    <Property Name="Peticion_Carta_Terminacion" Type="tinyint" Nullable="false" />
+    <Property Name="Fecha_Peticion_Carta_Terminacion" Type="date" />
+    <Property Name="Fecha_Llegada_Carta_Terminacion" Type="date" />
+    <Property Name="Carta_Terminacion" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Carta_Terminacion" Type="date" />
+    <Property Name="ID_Terminacion" Type="int" />
+    <Property Name="Estado" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Baja" Type="date" />
+  </EntityType>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="ID_Carrera" />
+    </Key>
+    <Property Name="ID_Carrera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Carrera" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Escolaridad" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Datos_Escolares">
+    <Key>
+      <PropertyRef Name="ID_Datos_Escolares" />
+    </Key>
+    <Property Name="ID_Datos_Escolares" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Semestre" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Matricula" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Promedio_General" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ID_Escuela" Type="int" Nullable="false" />
+    <Property Name="ID_Persona_Enc" Type="int" Nullable="false" />
+    <Property Name="ID_Carrera" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Datos_Personales">
+    <Key>
+      <PropertyRef Name="ID_Datos_Personales" />
+    </Key>
+    <Property Name="ID_Datos_Personales" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2" Type="varchar" MaxLength="50" />
+    <Property Name="Apellido_Paterno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido_Materno" Type="varchar" MaxLength="50" />
+    <Property Name="Sexo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Edad" Type="tinyint" Nullable="false" />
+    <Property Name="Estado_Civil" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Fecha_Nacimiento" Type="date" Nullable="false" />
+    <Property Name="Telefono_Fijo" Type="varchar" MaxLength="15" />
+    <Property Name="Celular" Type="varchar" MaxLength="15" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" />
+    <Property Name="Curp" Type="varchar" MaxLength="18" Nullable="false" />
+    <Property Name="ID_Referencia" Type="int" Nullable="false" />
+    <Property Name="ID_Direccion" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="ID_Departamento" />
+    </Key>
+    <Property Name="ID_Departamento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="80" />
+    <Property Name="Departamento" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="Clave_Departamento" Type="varchar" MaxLength="15" />
+    <Property Name="Subdireccion" Type="varchar" MaxLength="80" />
+    <Property Name="Clave_Subdireccion" Type="varchar" MaxLength="15" />
+    <Property Name="Gerencia_Unidad" Type="varchar" MaxLength="80" />
+    <Property Name="Clave_Gerencia" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Dias_Festivos">
+    <Key>
+      <PropertyRef Name="ID_dia" />
+    </Key>
+    <Property Name="ID_dia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="dia" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Direccion">
+    <Key>
+      <PropertyRef Name="ID_Direccion" />
+    </Key>
+    <Property Name="ID_Direccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Calle" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Numero_Interior" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Numero_Exterior" Type="varchar" MaxLength="10" />
+    <Property Name="Colonia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Municipio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pais" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Codigo_Postal" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ID_Direccion_Renta" Type="int" />
+  </EntityType>
+  <EntityType Name="DireccionRenta">
+    <Key>
+      <PropertyRef Name="ID_Renta" />
+    </Key>
+    <Property Name="ID_Renta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Calle" Type="varchar" MaxLength="30" />
+    <Property Name="Numero_Interior" Type="varchar" MaxLength="10" />
+    <Property Name="Colonia" Type="varchar" MaxLength="50" />
+    <Property Name="Municipio" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="ID_Documentos" />
+    </Key>
+    <Property Name="ID_Documentos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Entrevista" Type="bit" Nullable="false" />
+    <Property Name="Carta_Compromiso" Type="bit" Nullable="false" />
+    <Property Name="Anexo" Type="bit" Nullable="false" />
+    <Property Name="Reglamento" Type="bit" Nullable="false" />
+    <Property Name="Hoja_Renta" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Encargado_Escuela">
+    <Key>
+      <PropertyRef Name="ID_Encargado" />
+    </Key>
+    <Property Name="ID_Encargado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1_Encargado" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2_Encargado" Type="varchar" MaxLength="50" />
+    <Property Name="Apellido_Paterno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido_Materno" Type="varchar" MaxLength="50" />
+    <Property Name="Cargo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="10" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Escuela">
+    <Key>
+      <PropertyRef Name="ID_Escuela" />
+    </Key>
+    <Property Name="ID_Escuela" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Escuela" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estudiante">
+    <Key>
+      <PropertyRef Name="ID_Estudiante" />
+    </Key>
+    <Property Name="ID_Estudiante" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Datos_Personales" Type="int" Nullable="false" />
+    <Property Name="ID_Datos_Escolares" Type="int" Nullable="false" />
+    <Property Name="ID_Area" Type="int" Nullable="false" />
+    <Property Name="ID_Expediente" Type="int" Nullable="false" />
+    <Property Name="ID_Programa" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Expediente">
+    <Key>
+      <PropertyRef Name="ID_Expediente" />
+    </Key>
+    <Property Name="ID_Expediente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Etiqueta" Type="bit" Nullable="false" />
+    <Property Name="ID_Documentacion" Type="int" Nullable="false" />
+    <Property Name="ID_Requisitos" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InicioSesion">
+    <Key>
+      <PropertyRef Name="ID_Usuario" />
+    </Key>
+    <Property Name="ID_Usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Jefe_Area">
+    <Key>
+      <PropertyRef Name="ID_Jefe_Area" />
+    </Key>
+    <Property Name="ID_Jefe_Area" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1_Jefe" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Nombre2_Jefe" Type="varchar" MaxLength="40" />
+    <Property Name="Apellido_Paterno_Jefe" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido_Materno_Jefe" Type="varchar" MaxLength="50" />
+    <Property Name="Ficha" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Programa">
+    <Key>
+      <PropertyRef Name="ID_Programa" />
+    </Key>
+    <Property Name="ID_Programa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Programa" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Horas_Totales" Type="int" Nullable="false" />
+    <Property Name="Horas_Diarias" Type="int" Nullable="false" />
+    <Property Name="Hora_Inicio" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Hora_Termino" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Fecha_Inicio" Type="date" Nullable="false" />
+    <Property Name="Fecha_Final" Type="date" Nullable="false" />
+    <Property Name="Nombre_Proyecto" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Actividades" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="ID_Avance" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Puerta">
+    <Key>
+      <PropertyRef Name="ID_Puerta" />
+    </Key>
+    <Property Name="ID_Puerta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Reportes">
+    <Key>
+      <PropertyRef Name="ID_Reportes" />
+    </Key>
+    <Property Name="ID_Reportes" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Avance" Type="int" Nullable="false" />
+    <Property Name="Mes_Entrega" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Fecha_Entrega" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Requisitos">
+    <Key>
+      <PropertyRef Name="ID_Requisitos" />
+    </Key>
+    <Property Name="ID_Requisitos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Carta_Presentacion" Type="bit" Nullable="false" />
+    <Property Name="Carta_Seguro" Type="bit" Nullable="false" />
+    <Property Name="Historial_Academico" Type="bit" Nullable="false" />
+    <Property Name="Fotos" Type="bit" Nullable="false" />
+    <Property Name="Comprobante_Domicilio" Type="bit" Nullable="false" />
+    <Property Name="Acta_Nacimiento" Type="bit" Nullable="false" />
+    <Property Name="Curp" Type="bit" Nullable="false" />
+    <Property Name="Credencial_Escolar" Type="bit" Nullable="false" />
+    <Property Name="Credencial_Elector" Type="bit" Nullable="false" />
+    <Property Name="Carta_Compromiso" Type="bit" Nullable="false" />
+    <Property Name="Cartilla_Servicio" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tutor">
+    <Key>
+      <PropertyRef Name="ID_Ref" />
+    </Key>
+    <Property Name="ID_Ref" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1_Tutor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2_Tutor" Type="varchar" MaxLength="50" />
+    <Property Name="Ap_P_T" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AP_M_T" Type="varchar" MaxLength="50" />
+    <Property Name="TelefonoT" Type="varchar" MaxLength="10" />
+    <Property Name="Nombre1_Ref" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2_Ref" Type="varchar" MaxLength="50" />
+    <Property Name="AP_P_R" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AP_M_R" Type="varchar" MaxLength="50" />
+    <Property Name="TelefonoR" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK__Area__ID_Asesor__38996AB5">
+    <End Role="Asesor_Tecnico" Type="Self.Asesor_Tecnico" Multiplicity="0..1" />
+    <End Role="Area" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Asesor_Tecnico">
+        <PropertyRef Name="ID_Asesor" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Asesor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Departa__398D8EEE">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="0..1" />
+    <End Role="Area" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="ID_Departamento" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Jefe_Ar__3A81B327">
+    <End Role="Jefe_Area" Type="Self.Jefe_Area" Multiplicity="0..1" />
+    <End Role="Area" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jefe_Area">
+        <PropertyRef Name="ID_Jefe_Area" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Jefe_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Puerta__3B75D760">
+    <End Role="Puerta" Type="Self.Puerta" Multiplicity="0..1" />
+    <End Role="Area" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Puerta">
+        <PropertyRef Name="ID_Puerta" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Puerta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Ca__3C69FB99">
+    <End Role="Carrera" Type="Self.Carrera" Multiplicity="1" />
+    <End Role="Datos_Escolares" Type="Self.Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Carrera">
+        <PropertyRef Name="ID_Carrera" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Carrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Es__3D5E1FD2">
+    <End Role="Escuela" Type="Self.Escuela" Multiplicity="1" />
+    <End Role="Datos_Escolares" Type="Self.Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Escuela">
+        <PropertyRef Name="ID_Escuela" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Escuela" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Pe__3E52440B">
+    <End Role="Encargado_Escuela" Type="Self.Encargado_Escuela" Multiplicity="1" />
+    <End Role="Datos_Escolares" Type="Self.Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Encargado_Escuela">
+        <PropertyRef Name="ID_Encargado" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Persona_Enc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Per__ID_Di__3F466844">
+    <End Role="Direccion" Type="Self.Direccion" Multiplicity="1" />
+    <End Role="Datos_Personales" Type="Self.Datos_Personales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Direccion">
+        <PropertyRef Name="ID_Direccion" />
+      </Principal>
+      <Dependent Role="Datos_Personales">
+        <PropertyRef Name="ID_Direccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Per__ID_Re__403A8C7D">
+    <End Role="Tutor" Type="Self.Tutor" Multiplicity="1" />
+    <End Role="Datos_Personales" Type="Self.Datos_Personales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tutor">
+        <PropertyRef Name="ID_Ref" />
+      </Principal>
+      <Dependent Role="Datos_Personales">
+        <PropertyRef Name="ID_Referencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Direccion__ID_Di__412EB0B6">
+    <End Role="DireccionRenta" Type="Self.DireccionRenta" Multiplicity="0..1" />
+    <End Role="Direccion" Type="Self.Direccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DireccionRenta">
+        <PropertyRef Name="ID_Renta" />
+      </Principal>
+      <Dependent Role="Direccion">
+        <PropertyRef Name="ID_Direccion_Renta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Ar__4222D4EF">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Da__4316F928">
+    <End Role="Datos_Personales" Type="Self.Datos_Personales" Multiplicity="1" />
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos_Personales">
+        <PropertyRef Name="ID_Datos_Personales" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Datos_Personales" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Da__440B1D61">
+    <End Role="Datos_Escolares" Type="Self.Datos_Escolares" Multiplicity="1" />
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos_Escolares">
+        <PropertyRef Name="ID_Datos_Escolares" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Datos_Escolares" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Ex__44FF419A">
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="1" />
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="ID_Expediente" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Expediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Pr__45F365D3">
+    <End Role="Programa" Type="Self.Programa" Multiplicity="1" />
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programa">
+        <PropertyRef Name="ID_Programa" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Programa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expedient__ID_Do__46E78A0C">
+    <End Role="Documentos" Type="Self.Documentos" Multiplicity="1" />
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Documentos">
+        <PropertyRef Name="ID_Documentos" />
+      </Principal>
+      <Dependent Role="Expediente">
+        <PropertyRef Name="ID_Documentacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expedient__ID_Re__47DBAE45">
+    <End Role="Requisitos" Type="Self.Requisitos" Multiplicity="1" />
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Requisitos">
+        <PropertyRef Name="ID_Requisitos" />
+      </Principal>
+      <Dependent Role="Expediente">
+        <PropertyRef Name="ID_Requisitos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Programa__ID_Ava__48CFD27E">
+    <End Role="Avance" Type="Self.Avance" Multiplicity="1" />
+    <End Role="Programa" Type="Self.Programa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avance">
+        <PropertyRef Name="ID_Avance" />
+      </Principal>
+      <Dependent Role="Programa">
+        <PropertyRef Name="ID_Avance" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reportes__ID_Ava__5CD6CB2B">
+    <End Role="Avance" Type="Self.Avance" Multiplicity="1" />
+    <End Role="Reportes" Type="Self.Reportes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avance">
+        <PropertyRef Name="ID_Avance" />
+      </Principal>
+      <Dependent Role="Reportes">
+        <PropertyRef Name="ID_Avance" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="LoginUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="uname" Type="nvarchar" Mode="In" />
+    <Parameter Name="pass" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Base_Servicio_PracticasModelStoreContainer">
+    <EntitySet Name="Area" EntityType="Self.Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Asesor_Tecnico" EntityType="Self.Asesor_Tecnico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Avance" EntityType="Self.Avance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Carrera" EntityType="Self.Carrera" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Datos_Escolares" EntityType="Self.Datos_Escolares" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Datos_Personales" EntityType="Self.Datos_Personales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dias_Festivos" EntityType="Self.Dias_Festivos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Direccion" EntityType="Self.Direccion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DireccionRenta" EntityType="Self.DireccionRenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Encargado_Escuela" EntityType="Self.Encargado_Escuela" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Escuela" EntityType="Self.Escuela" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Estudiante" EntityType="Self.Estudiante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Expediente" EntityType="Self.Expediente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InicioSesion" EntityType="Self.InicioSesion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jefe_Area" EntityType="Self.Jefe_Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Programa" EntityType="Self.Programa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Puerta" EntityType="Self.Puerta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reportes" EntityType="Self.Reportes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Requisitos" EntityType="Self.Requisitos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tutor" EntityType="Self.Tutor" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Area__ID_Asesor__38996AB5" Association="Self.FK__Area__ID_Asesor__38996AB5">
+      <End Role="Asesor_Tecnico" EntitySet="Asesor_Tecnico" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Departa__398D8EEE" Association="Self.FK__Area__ID_Departa__398D8EEE">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Jefe_Ar__3A81B327" Association="Self.FK__Area__ID_Jefe_Ar__3A81B327">
+      <End Role="Jefe_Area" EntitySet="Jefe_Area" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Puerta__3B75D760" Association="Self.FK__Area__ID_Puerta__3B75D760">
+      <End Role="Puerta" EntitySet="Puerta" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Ca__3C69FB99" Association="Self.FK__Datos_Esc__ID_Ca__3C69FB99">
+      <End Role="Carrera" EntitySet="Carrera" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Es__3D5E1FD2" Association="Self.FK__Datos_Esc__ID_Es__3D5E1FD2">
+      <End Role="Escuela" EntitySet="Escuela" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Pe__3E52440B" Association="Self.FK__Datos_Esc__ID_Pe__3E52440B">
+      <End Role="Encargado_Escuela" EntitySet="Encargado_Escuela" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Per__ID_Di__3F466844" Association="Self.FK__Datos_Per__ID_Di__3F466844">
+      <End Role="Direccion" EntitySet="Direccion" />
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Per__ID_Re__403A8C7D" Association="Self.FK__Datos_Per__ID_Re__403A8C7D">
+      <End Role="Tutor" EntitySet="Tutor" />
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Direccion__ID_Di__412EB0B6" Association="Self.FK__Direccion__ID_Di__412EB0B6">
+      <End Role="DireccionRenta" EntitySet="DireccionRenta" />
+      <End Role="Direccion" EntitySet="Direccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Ar__4222D4EF" Association="Self.FK__Estudiant__ID_Ar__4222D4EF">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Da__4316F928" Association="Self.FK__Estudiant__ID_Da__4316F928">
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Da__440B1D61" Association="Self.FK__Estudiant__ID_Da__440B1D61">
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Ex__44FF419A" Association="Self.FK__Estudiant__ID_Ex__44FF419A">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Pr__45F365D3" Association="Self.FK__Estudiant__ID_Pr__45F365D3">
+      <End Role="Programa" EntitySet="Programa" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expedient__ID_Do__46E78A0C" Association="Self.FK__Expedient__ID_Do__46E78A0C">
+      <End Role="Documentos" EntitySet="Documentos" />
+      <End Role="Expediente" EntitySet="Expediente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expedient__ID_Re__47DBAE45" Association="Self.FK__Expedient__ID_Re__47DBAE45">
+      <End Role="Requisitos" EntitySet="Requisitos" />
+      <End Role="Expediente" EntitySet="Expediente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Programa__ID_Ava__48CFD27E" Association="Self.FK__Programa__ID_Ava__48CFD27E">
+      <End Role="Avance" EntitySet="Avance" />
+      <End Role="Programa" EntitySet="Programa" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reportes__ID_Ava__5CD6CB2B" Association="Self.FK__Reportes__ID_Ava__5CD6CB2B">
+      <End Role="Avance" EntitySet="Avance" />
+      <End Role="Reportes" EntitySet="Reportes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Base_Servicio_PracticasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Base_Servicio_PracticasEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="LoginUsuario" ReturnType="Collection(Base_Servicio_PracticasModel.LoginUsuario_Result)">
+      <Parameter Name="uname" Mode="In" Type="String" />
+      <Parameter Name="pass" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Base_Servicio_PracticasModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Base_Servicio_PracticasModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Area" EntityType="Base_Servicio_PracticasModel.Area" />
+    <EntitySet Name="Asesor_Tecnico" EntityType="Base_Servicio_PracticasModel.Asesor_Tecnico" />
+    <EntitySet Name="Avance" EntityType="Base_Servicio_PracticasModel.Avance" />
+    <EntitySet Name="Carrera" EntityType="Base_Servicio_PracticasModel.Carrera" />
+    <EntitySet Name="Datos_Escolares" EntityType="Base_Servicio_PracticasModel.Datos_Escolares" />
+    <EntitySet Name="Datos_Personales" EntityType="Base_Servicio_PracticasModel.Datos_Personales" />
+    <EntitySet Name="Departamento" EntityType="Base_Servicio_PracticasModel.Departamento" />
+    <EntitySet Name="Dias_Festivos" EntityType="Base_Servicio_PracticasModel.Dias_Festivos" />
+    <EntitySet Name="Direccion" EntityType="Base_Servicio_PracticasModel.Direccion" />
+    <EntitySet Name="DireccionRenta" EntityType="Base_Servicio_PracticasModel.DireccionRenta" />
+    <EntitySet Name="Documentos" EntityType="Base_Servicio_PracticasModel.Documentos" />
+    <EntitySet Name="Encargado_Escuela" EntityType="Base_Servicio_PracticasModel.Encargado_Escuela" />
+    <EntitySet Name="Escuela" EntityType="Base_Servicio_PracticasModel.Escuela" />
+    <EntitySet Name="Estudiante" EntityType="Base_Servicio_PracticasModel.Estudiante" />
+    <EntitySet Name="Expediente" EntityType="Base_Servicio_PracticasModel.Expediente" />
+    <EntitySet Name="InicioSesion" EntityType="Base_Servicio_PracticasModel.InicioSesion" />
+    <EntitySet Name="Jefe_Area" EntityType="Base_Servicio_PracticasModel.Jefe_Area" />
+    <EntitySet Name="Programa" EntityType="Base_Servicio_PracticasModel.Programa" />
+    <EntitySet Name="Puerta" EntityType="Base_Servicio_PracticasModel.Puerta" />
+    <EntitySet Name="Reportes" EntityType="Base_Servicio_PracticasModel.Reportes" />
+    <EntitySet Name="Requisitos" EntityType="Base_Servicio_PracticasModel.Requisitos" />
+    <EntitySet Name="sysdiagrams" EntityType="Base_Servicio_PracticasModel.sysdiagrams" />
+    <EntitySet Name="Tutor" EntityType="Base_Servicio_PracticasModel.Tutor" />
+    <AssociationSet Name="FK__Area__ID_Asesor__38996AB5" Association="Base_Servicio_PracticasModel.FK__Area__ID_Asesor__38996AB5">
+      <End Role="Asesor_Tecnico" EntitySet="Asesor_Tecnico" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Departa__398D8EEE" Association="Base_Servicio_PracticasModel.FK__Area__ID_Departa__398D8EEE">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Jefe_Ar__3A81B327" Association="Base_Servicio_PracticasModel.FK__Area__ID_Jefe_Ar__3A81B327">
+      <End Role="Jefe_Area" EntitySet="Jefe_Area" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Area__ID_Puerta__3B75D760" Association="Base_Servicio_PracticasModel.FK__Area__ID_Puerta__3B75D760">
+      <End Role="Puerta" EntitySet="Puerta" />
+      <End Role="Area" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Ar__4222D4EF" Association="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ar__4222D4EF">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Programa__ID_Ava__48CFD27E" Association="Base_Servicio_PracticasModel.FK__Programa__ID_Ava__48CFD27E">
+      <End Role="Avance" EntitySet="Avance" />
+      <End Role="Programa" EntitySet="Programa" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reportes__ID_Ava__5CD6CB2B" Association="Base_Servicio_PracticasModel.FK__Reportes__ID_Ava__5CD6CB2B">
+      <End Role="Avance" EntitySet="Avance" />
+      <End Role="Reportes" EntitySet="Reportes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Ca__3C69FB99" Association="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Ca__3C69FB99">
+      <End Role="Carrera" EntitySet="Carrera" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Es__3D5E1FD2" Association="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Es__3D5E1FD2">
+      <End Role="Escuela" EntitySet="Escuela" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Esc__ID_Pe__3E52440B" Association="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Pe__3E52440B">
+      <End Role="Encargado_Escuela" EntitySet="Encargado_Escuela" />
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Da__440B1D61" Association="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__440B1D61">
+      <End Role="Datos_Escolares" EntitySet="Datos_Escolares" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Per__ID_Di__3F466844" Association="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Di__3F466844">
+      <End Role="Direccion" EntitySet="Direccion" />
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Datos_Per__ID_Re__403A8C7D" Association="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Re__403A8C7D">
+      <End Role="Tutor" EntitySet="Tutor" />
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Da__4316F928" Association="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__4316F928">
+      <End Role="Datos_Personales" EntitySet="Datos_Personales" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Direccion__ID_Di__412EB0B6" Association="Base_Servicio_PracticasModel.FK__Direccion__ID_Di__412EB0B6">
+      <End Role="DireccionRenta" EntitySet="DireccionRenta" />
+      <End Role="Direccion" EntitySet="Direccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expedient__ID_Do__46E78A0C" Association="Base_Servicio_PracticasModel.FK__Expedient__ID_Do__46E78A0C">
+      <End Role="Documentos" EntitySet="Documentos" />
+      <End Role="Expediente" EntitySet="Expediente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Ex__44FF419A" Association="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ex__44FF419A">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Estudiant__ID_Pr__45F365D3" Association="Base_Servicio_PracticasModel.FK__Estudiant__ID_Pr__45F365D3">
+      <End Role="Programa" EntitySet="Programa" />
+      <End Role="Estudiante" EntitySet="Estudiante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expedient__ID_Re__47DBAE45" Association="Base_Servicio_PracticasModel.FK__Expedient__ID_Re__47DBAE45">
+      <End Role="Requisitos" EntitySet="Requisitos" />
+      <End Role="Expediente" EntitySet="Expediente" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="LoginUsuario_Result">
+    <Property Type="String" Name="Usuario" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Contrasenia" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ubicacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_Departamento" Type="Int32" />
+    <Property Name="ID_Puerta" Type="Int32" />
+    <Property Name="ID_Asesor" Type="Int32" />
+    <Property Name="ID_Jefe_Area" Type="Int32" />
+    <NavigationProperty Name="Asesor_Tecnico" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Asesor__38996AB5" FromRole="Area" ToRole="Asesor_Tecnico" />
+    <NavigationProperty Name="Departamento" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Departa__398D8EEE" FromRole="Area" ToRole="Departamento" />
+    <NavigationProperty Name="Jefe_Area" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Jefe_Ar__3A81B327" FromRole="Area" ToRole="Jefe_Area" />
+    <NavigationProperty Name="Puerta" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Puerta__3B75D760" FromRole="Area" ToRole="Puerta" />
+    <NavigationProperty Name="Estudiante" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ar__4222D4EF" FromRole="Area" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Asesor_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Asesor" />
+    </Key>
+    <Property Name="ID_Asesor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1_Asesor" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2_Asesor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Paterno" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Materno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cargo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Ficha" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Extension" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Area" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Asesor__38996AB5" FromRole="Asesor_Tecnico" ToRole="Area" />
+  </EntityType>
+  <EntityType Name="Avance">
+    <Key>
+      <PropertyRef Name="ID_Avance" />
+    </Key>
+    <Property Name="ID_Avance" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nota" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="Avance_General" Type="Int32" Nullable="false" />
+    <Property Name="Peticion_folio_aceptacion" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Peticion_Folio_Aceptacion" Type="DateTime" Precision="0" />
+    <Property Name="Curso_De_Induccion" Type="Byte" Nullable="false" />
+    <Property Name="Fecha_Curso_Induccion" Type="DateTime" Precision="0" />
+    <Property Name="Peticion_Credencial" Type="Byte" Nullable="false" />
+    <Property Name="Fecha_Peticion_Credencial" Type="DateTime" Precision="0" />
+    <Property Name="Fecha_Llegada_Credencial" Type="DateTime" Precision="0" />
+    <Property Name="Credencial" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Credencial" Type="DateTime" Precision="0" />
+    <Property Name="ID_Credencial" Type="Int32" />
+    <Property Name="Peticion_Carta_Aceptacion" Type="Byte" Nullable="false" />
+    <Property Name="Fecha_Peticion_Carta_Aceptacion" Type="DateTime" Precision="0" />
+    <Property Name="Fecha_Llegada_Carta_Aceptacion" Type="DateTime" Precision="0" />
+    <Property Name="Carta_Aceptacion" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Carta_Aceptacion" Type="DateTime" Precision="0" />
+    <Property Name="ID_Aceptacion" Type="Int32" />
+    <Property Name="Carta_Terminacion_Area" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Carta_Terminacion_Area" Type="DateTime" Precision="0" />
+    <Property Name="Peticion_Folio_Carta_Terminacion" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Peticion_Folio_Carta_Terminacion" Type="DateTime" Precision="0" />
+    <Property Name="Peticion_Carta_Terminacion" Type="Byte" Nullable="false" />
+    <Property Name="Fecha_Peticion_Carta_Terminacion" Type="DateTime" Precision="0" />
+    <Property Name="Fecha_Llegada_Carta_Terminacion" Type="DateTime" Precision="0" />
+    <Property Name="Carta_Terminacion" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Carta_Terminacion" Type="DateTime" Precision="0" />
+    <Property Name="ID_Terminacion" Type="Int32" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Baja" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Programa" Relationship="Base_Servicio_PracticasModel.FK__Programa__ID_Ava__48CFD27E" FromRole="Avance" ToRole="Programa" />
+    <NavigationProperty Name="Reportes" Relationship="Base_Servicio_PracticasModel.FK__Reportes__ID_Ava__5CD6CB2B" FromRole="Avance" ToRole="Reportes" />
+  </EntityType>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="ID_Carrera" />
+    </Key>
+    <Property Name="ID_Carrera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Carrera" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Escolaridad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Datos_Escolares" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Ca__3C69FB99" FromRole="Carrera" ToRole="Datos_Escolares" />
+  </EntityType>
+  <EntityType Name="Datos_Escolares">
+    <Key>
+      <PropertyRef Name="ID_Datos_Escolares" />
+    </Key>
+    <Property Name="ID_Datos_Escolares" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Semestre" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Matricula" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Promedio_General" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="ID_Escuela" Type="Int32" Nullable="false" />
+    <Property Name="ID_Persona_Enc" Type="Int32" Nullable="false" />
+    <Property Name="ID_Carrera" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Carrera" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Ca__3C69FB99" FromRole="Datos_Escolares" ToRole="Carrera" />
+    <NavigationProperty Name="Escuela" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Es__3D5E1FD2" FromRole="Datos_Escolares" ToRole="Escuela" />
+    <NavigationProperty Name="Encargado_Escuela" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Pe__3E52440B" FromRole="Datos_Escolares" ToRole="Encargado_Escuela" />
+    <NavigationProperty Name="Estudiante" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__440B1D61" FromRole="Datos_Escolares" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Datos_Personales">
+    <Key>
+      <PropertyRef Name="ID_Datos_Personales" />
+    </Key>
+    <Property Name="ID_Datos_Personales" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Paterno" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Materno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sexo" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Edad" Type="Byte" Nullable="false" />
+    <Property Name="Estado_Civil" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha_Nacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Telefono_Fijo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Celular" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Curp" Type="String" Nullable="false" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Name="ID_Referencia" Type="Int32" Nullable="false" />
+    <Property Name="ID_Direccion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Direccion" Relationship="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Di__3F466844" FromRole="Datos_Personales" ToRole="Direccion" />
+    <NavigationProperty Name="Tutor" Relationship="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Re__403A8C7D" FromRole="Datos_Personales" ToRole="Tutor" />
+    <NavigationProperty Name="Estudiante" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__4316F928" FromRole="Datos_Personales" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="ID_Departamento" />
+    </Key>
+    <Property Name="ID_Departamento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Direccion" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Departamento1" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Clave_Departamento" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Subdireccion" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Clave_Subdireccion" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Gerencia_Unidad" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Clave_Gerencia" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Area" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Departa__398D8EEE" FromRole="Departamento" ToRole="Area" />
+  </EntityType>
+  <EntityType Name="Dias_Festivos">
+    <Key>
+      <PropertyRef Name="ID_dia" />
+    </Key>
+    <Property Name="ID_dia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="dia" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Direccion">
+    <Key>
+      <PropertyRef Name="ID_Direccion" />
+    </Key>
+    <Property Name="ID_Direccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Calle" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_Interior" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_Exterior" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Colonia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Municipio" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Pais" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo_Postal" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ID_Direccion_Renta" Type="Int32" />
+    <NavigationProperty Name="Datos_Personales" Relationship="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Di__3F466844" FromRole="Direccion" ToRole="Datos_Personales" />
+    <NavigationProperty Name="DireccionRenta" Relationship="Base_Servicio_PracticasModel.FK__Direccion__ID_Di__412EB0B6" FromRole="Direccion" ToRole="DireccionRenta" />
+  </EntityType>
+  <EntityType Name="DireccionRenta">
+    <Key>
+      <PropertyRef Name="ID_Renta" />
+    </Key>
+    <Property Name="ID_Renta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Calle" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_Interior" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Colonia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Municipio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Direccion" Relationship="Base_Servicio_PracticasModel.FK__Direccion__ID_Di__412EB0B6" FromRole="DireccionRenta" ToRole="Direccion" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="ID_Documentos" />
+    </Key>
+    <Property Name="ID_Documentos" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Entrevista" Type="Boolean" Nullable="false" />
+    <Property Name="Carta_Compromiso" Type="Boolean" Nullable="false" />
+    <Property Name="Anexo" Type="Boolean" Nullable="false" />
+    <Property Name="Reglamento" Type="Boolean" Nullable="false" />
+    <Property Name="Hoja_Renta" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Expediente" Relationship="Base_Servicio_PracticasModel.FK__Expedient__ID_Do__46E78A0C" FromRole="Documentos" ToRole="Expediente" />
+  </EntityType>
+  <EntityType Name="Encargado_Escuela">
+    <Key>
+      <PropertyRef Name="ID_Encargado" />
+    </Key>
+    <Property Name="ID_Encargado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1_Encargado" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2_Encargado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Paterno" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Materno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cargo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Datos_Escolares" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Pe__3E52440B" FromRole="Encargado_Escuela" ToRole="Datos_Escolares" />
+  </EntityType>
+  <EntityType Name="Escuela">
+    <Key>
+      <PropertyRef Name="ID_Escuela" />
+    </Key>
+    <Property Name="ID_Escuela" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Escuela" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Datos_Escolares" Relationship="Base_Servicio_PracticasModel.FK__Datos_Esc__ID_Es__3D5E1FD2" FromRole="Escuela" ToRole="Datos_Escolares" />
+  </EntityType>
+  <EntityType Name="Estudiante">
+    <Key>
+      <PropertyRef Name="ID_Estudiante" />
+    </Key>
+    <Property Name="ID_Estudiante" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Datos_Personales" Type="Int32" Nullable="false" />
+    <Property Name="ID_Datos_Escolares" Type="Int32" Nullable="false" />
+    <Property Name="ID_Area" Type="Int32" Nullable="false" />
+    <Property Name="ID_Expediente" Type="Int32" Nullable="false" />
+    <Property Name="ID_Programa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Area" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ar__4222D4EF" FromRole="Estudiante" ToRole="Area" />
+    <NavigationProperty Name="Datos_Escolares" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__440B1D61" FromRole="Estudiante" ToRole="Datos_Escolares" />
+    <NavigationProperty Name="Datos_Personales" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Da__4316F928" FromRole="Estudiante" ToRole="Datos_Personales" />
+    <NavigationProperty Name="Expediente" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ex__44FF419A" FromRole="Estudiante" ToRole="Expediente" />
+    <NavigationProperty Name="Programa" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Pr__45F365D3" FromRole="Estudiante" ToRole="Programa" />
+  </EntityType>
+  <EntityType Name="Expediente">
+    <Key>
+      <PropertyRef Name="ID_Expediente" />
+    </Key>
+    <Property Name="ID_Expediente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Etiqueta" Type="Boolean" Nullable="false" />
+    <Property Name="ID_Documentacion" Type="Int32" Nullable="false" />
+    <Property Name="ID_Requisitos" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Documentos" Relationship="Base_Servicio_PracticasModel.FK__Expedient__ID_Do__46E78A0C" FromRole="Expediente" ToRole="Documentos" />
+    <NavigationProperty Name="Estudiante" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Ex__44FF419A" FromRole="Expediente" ToRole="Estudiante" />
+    <NavigationProperty Name="Requisitos" Relationship="Base_Servicio_PracticasModel.FK__Expedient__ID_Re__47DBAE45" FromRole="Expediente" ToRole="Requisitos" />
+  </EntityType>
+  <EntityType Name="InicioSesion">
+    <Key>
+      <PropertyRef Name="ID_Usuario" />
+    </Key>
+    <Property Name="ID_Usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contrasenia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Jefe_Area">
+    <Key>
+      <PropertyRef Name="ID_Jefe_Area" />
+    </Key>
+    <Property Name="ID_Jefe_Area" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1_Jefe" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2_Jefe" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Paterno_Jefe" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Materno_Jefe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ficha" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Area" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Jefe_Ar__3A81B327" FromRole="Jefe_Area" ToRole="Area" />
+  </EntityType>
+  <EntityType Name="Programa">
+    <Key>
+      <PropertyRef Name="ID_Programa" />
+    </Key>
+    <Property Name="ID_Programa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Programa" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Horas_Totales" Type="Int32" Nullable="false" />
+    <Property Name="Horas_Diarias" Type="Int32" Nullable="false" />
+    <Property Name="Hora_Inicio" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Hora_Termino" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha_Inicio" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Fecha_Final" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Nombre_Proyecto" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="Actividades" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ID_Avance" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Avance" Relationship="Base_Servicio_PracticasModel.FK__Programa__ID_Ava__48CFD27E" FromRole="Programa" ToRole="Avance" />
+    <NavigationProperty Name="Estudiante" Relationship="Base_Servicio_PracticasModel.FK__Estudiant__ID_Pr__45F365D3" FromRole="Programa" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Puerta">
+    <Key>
+      <PropertyRef Name="ID_Puerta" />
+    </Key>
+    <Property Name="ID_Puerta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Area" Relationship="Base_Servicio_PracticasModel.FK__Area__ID_Puerta__3B75D760" FromRole="Puerta" ToRole="Area" />
+  </EntityType>
+  <EntityType Name="Reportes">
+    <Key>
+      <PropertyRef Name="ID_Reportes" />
+    </Key>
+    <Property Name="ID_Reportes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Avance" Type="Int32" Nullable="false" />
+    <Property Name="Mes_Entrega" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha_Entrega" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Avance" Relationship="Base_Servicio_PracticasModel.FK__Reportes__ID_Ava__5CD6CB2B" FromRole="Reportes" ToRole="Avance" />
+  </EntityType>
+  <EntityType Name="Requisitos">
+    <Key>
+      <PropertyRef Name="ID_Requisitos" />
+    </Key>
+    <Property Name="ID_Requisitos" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Carta_Presentacion" Type="Boolean" Nullable="false" />
+    <Property Name="Carta_Seguro" Type="Boolean" Nullable="false" />
+    <Property Name="Historial_Academico" Type="Boolean" Nullable="false" />
+    <Property Name="Fotos" Type="Boolean" Nullable="false" />
+    <Property Name="Comprobante_Domicilio" Type="Boolean" Nullable="false" />
+    <Property Name="Acta_Nacimiento" Type="Boolean" Nullable="false" />
+    <Property Name="Curp" Type="Boolean" Nullable="false" />
+    <Property Name="Credencial_Escolar" Type="Boolean" Nullable="false" />
+    <Property Name="Credencial_Elector" Type="Boolean" Nullable="false" />
+    <Property Name="Carta_Compromiso" Type="Boolean" Nullable="false" />
+    <Property Name="Cartilla_Servicio" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Expediente" Relationship="Base_Servicio_PracticasModel.FK__Expedient__ID_Re__47DBAE45" FromRole="Requisitos" ToRole="Expediente" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tutor">
+    <Key>
+      <PropertyRef Name="ID_Ref" />
+    </Key>
+    <Property Name="ID_Ref" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1_Tutor" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2_Tutor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ap_P_T" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AP_M_T" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TelefonoT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre1_Ref" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre2_Ref" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AP_P_R" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AP_M_R" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TelefonoR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Datos_Personales" Relationship="Base_Servicio_PracticasModel.FK__Datos_Per__ID_Re__403A8C7D" FromRole="Tutor" ToRole="Datos_Personales" />
+  </EntityType>
+  <Association Name="FK__Area__ID_Asesor__38996AB5">
+    <End Type="Base_Servicio_PracticasModel.Asesor_Tecnico" Role="Asesor_Tecnico" Multiplicity="0..1" />
+    <End Type="Base_Servicio_PracticasModel.Area" Role="Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Asesor_Tecnico">
+        <PropertyRef Name="ID_Asesor" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Asesor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Departa__398D8EEE">
+    <End Type="Base_Servicio_PracticasModel.Departamento" Role="Departamento" Multiplicity="0..1" />
+    <End Type="Base_Servicio_PracticasModel.Area" Role="Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="ID_Departamento" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Jefe_Ar__3A81B327">
+    <End Type="Base_Servicio_PracticasModel.Jefe_Area" Role="Jefe_Area" Multiplicity="0..1" />
+    <End Type="Base_Servicio_PracticasModel.Area" Role="Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jefe_Area">
+        <PropertyRef Name="ID_Jefe_Area" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Jefe_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Area__ID_Puerta__3B75D760">
+    <End Type="Base_Servicio_PracticasModel.Puerta" Role="Puerta" Multiplicity="0..1" />
+    <End Type="Base_Servicio_PracticasModel.Area" Role="Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Puerta">
+        <PropertyRef Name="ID_Puerta" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="ID_Puerta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Ar__4222D4EF">
+    <End Type="Base_Servicio_PracticasModel.Area" Role="Area" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Estudiante" Role="Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Programa__ID_Ava__48CFD27E">
+    <End Type="Base_Servicio_PracticasModel.Avance" Role="Avance" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Programa" Role="Programa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avance">
+        <PropertyRef Name="ID_Avance" />
+      </Principal>
+      <Dependent Role="Programa">
+        <PropertyRef Name="ID_Avance" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reportes__ID_Ava__5CD6CB2B">
+    <End Type="Base_Servicio_PracticasModel.Avance" Role="Avance" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Reportes" Role="Reportes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avance">
+        <PropertyRef Name="ID_Avance" />
+      </Principal>
+      <Dependent Role="Reportes">
+        <PropertyRef Name="ID_Avance" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Ca__3C69FB99">
+    <End Type="Base_Servicio_PracticasModel.Carrera" Role="Carrera" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Datos_Escolares" Role="Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Carrera">
+        <PropertyRef Name="ID_Carrera" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Carrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Es__3D5E1FD2">
+    <End Type="Base_Servicio_PracticasModel.Escuela" Role="Escuela" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Datos_Escolares" Role="Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Escuela">
+        <PropertyRef Name="ID_Escuela" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Escuela" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Esc__ID_Pe__3E52440B">
+    <End Type="Base_Servicio_PracticasModel.Encargado_Escuela" Role="Encargado_Escuela" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Datos_Escolares" Role="Datos_Escolares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Encargado_Escuela">
+        <PropertyRef Name="ID_Encargado" />
+      </Principal>
+      <Dependent Role="Datos_Escolares">
+        <PropertyRef Name="ID_Persona_Enc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Da__440B1D61">
+    <End Type="Base_Servicio_PracticasModel.Datos_Escolares" Role="Datos_Escolares" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Estudiante" Role="Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos_Escolares">
+        <PropertyRef Name="ID_Datos_Escolares" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Datos_Escolares" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Per__ID_Di__3F466844">
+    <End Type="Base_Servicio_PracticasModel.Direccion" Role="Direccion" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Datos_Personales" Role="Datos_Personales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Direccion">
+        <PropertyRef Name="ID_Direccion" />
+      </Principal>
+      <Dependent Role="Datos_Personales">
+        <PropertyRef Name="ID_Direccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Datos_Per__ID_Re__403A8C7D">
+    <End Type="Base_Servicio_PracticasModel.Tutor" Role="Tutor" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Datos_Personales" Role="Datos_Personales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tutor">
+        <PropertyRef Name="ID_Ref" />
+      </Principal>
+      <Dependent Role="Datos_Personales">
+        <PropertyRef Name="ID_Referencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Da__4316F928">
+    <End Type="Base_Servicio_PracticasModel.Datos_Personales" Role="Datos_Personales" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Estudiante" Role="Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos_Personales">
+        <PropertyRef Name="ID_Datos_Personales" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Datos_Personales" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Direccion__ID_Di__412EB0B6">
+    <End Type="Base_Servicio_PracticasModel.DireccionRenta" Role="DireccionRenta" Multiplicity="0..1" />
+    <End Type="Base_Servicio_PracticasModel.Direccion" Role="Direccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DireccionRenta">
+        <PropertyRef Name="ID_Renta" />
+      </Principal>
+      <Dependent Role="Direccion">
+        <PropertyRef Name="ID_Direccion_Renta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expedient__ID_Do__46E78A0C">
+    <End Type="Base_Servicio_PracticasModel.Documentos" Role="Documentos" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Expediente" Role="Expediente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Documentos">
+        <PropertyRef Name="ID_Documentos" />
+      </Principal>
+      <Dependent Role="Expediente">
+        <PropertyRef Name="ID_Documentacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Ex__44FF419A">
+    <End Type="Base_Servicio_PracticasModel.Expediente" Role="Expediente" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Estudiante" Role="Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="ID_Expediente" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Expediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Estudiant__ID_Pr__45F365D3">
+    <End Type="Base_Servicio_PracticasModel.Programa" Role="Programa" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Estudiante" Role="Estudiante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programa">
+        <PropertyRef Name="ID_Programa" />
+      </Principal>
+      <Dependent Role="Estudiante">
+        <PropertyRef Name="ID_Programa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expedient__ID_Re__47DBAE45">
+    <End Type="Base_Servicio_PracticasModel.Requisitos" Role="Requisitos" Multiplicity="1" />
+    <End Type="Base_Servicio_PracticasModel.Expediente" Role="Expediente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Requisitos">
+        <PropertyRef Name="ID_Requisitos" />
+      </Principal>
+      <Dependent Role="Expediente">
+        <PropertyRef Name="ID_Requisitos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoResidencias", "ProyectoResidencias.csproj", "{6BAA6CE0-0C66-40BB-98ED-A60E0FEF8356}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Servicio Social", "..\Servicio Social\Servicio Social.vdproj", "{18FF7A5A-2BB2-41ED-81E3-0A84F1F3A195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BAA6CE0-0C66-40BB-98ED-A60E0FEF8356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAA6CE0-0C66-40BB-98ED-A60E0FEF8356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAA6CE0-0C66-40BB-98ED-A60E0FEF8356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAA6CE0-0C66-40BB-98ED-A60E0FEF8356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FF7A5A-2BB2-41ED-81E3-0A84F1F3A195}.Debug|Any CPU.ActiveCfg = Debug
+		{18FF7A5A-2BB2-41ED-81E3-0A84F1F3A195}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {090E9B57-137C-4E1E-B46D-4BD09CDE5206}
+	EndGlobalSection
+EndGlobal
